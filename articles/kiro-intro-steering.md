@@ -1,5 +1,5 @@
 ---
-title: "KiroのAgent Steeringの概念が良いという話"
+title: "KiroのAgent Steeringの仕組みが良いと思った話"
 emoji: "💫"
 type: "tech"
 topics: [kiro, aws, ai, ide]
