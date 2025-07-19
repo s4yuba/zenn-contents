@@ -43,7 +43,7 @@ https://kiro.dev/docs/steering/index
 
 ### Agent Steering 概要
 
-Agent Steeringは、`.kiro/steering/`以下のMarkdownファイルを通じて、Kiroにプロジェクトに関する永続コンテキストを提供するものです。Claude Codeの`claude.md`やGemini CLIの`gemini.md`みたいなものという認識です。
+Agent Steeringは、`.kiro/steering/`以下のMarkdownファイルを通じて、Kiroにプロジェクトに関する永続コンテキストを提供するものです。Claude Codeの`CLAUDE.md`やGemini CLIの`GEMINI.md`みたいなものという認識です。
 
 ### UI
 
@@ -163,19 +163,19 @@ KiroのSteering関係のコマンドは、以下のようなものがありま�
 
 ### AWSの考える必須コンテキストの提案
 
-まず最初にKiroを使った時に思ったことは、「これClaude Codeの`claude.md`と同じか？」という感想でした。
+まず最初にKiroを使った時に思ったことは、「これClaude Codeの`CLAUDE.md`と同じか？」という感想でした。
 
-念の為`claude.md`について補足しておくと、`claude.md`はClaude Codeに常に渡されるコンテキストです。主に「プロジェクト概要」「構造」「技術スタック」「ルール」などを記載することが多いです。
+念の為`CLAUDE.md`について補足しておくと、`CLAUDE.md`はClaude Codeに常に渡されるコンテキストです。主に「プロジェクト概要」「構造」「技術スタック」「ルール」などを記載することが多いです。
 
-実際、Kiroで生成される3つのSteeringファイル（`product.md`、`tech.md`、`structure.md`）は、`claude.md`に記載するような内容が書かれています。
+実際、Kiroで生成される3つのSteeringファイル（`product.md`、`tech.md`、`structure.md`）は、`CLAUDE.md`に記載するような内容が書かれています。
 
-`claude.md`も`/init`でデフォルトファイルを作成してくれますが、プロジェクトによって毎回内容が違うことも多いです。
+`CLAUDE.md`も`/init`でデフォルトファイルを作成してくれますが、プロジェクトによって毎回内容が違うことも多いです。
 
 Kiroは3つのSteeringファイルを通して、**「製品概要」「技術スタック」「プロジェクト構造」がAIエージェントのコーディングに必要というAWSの考えを示してくれた**ことが個人的に良いと思いました。
 
 ### コンテキストの分割による管理の容易さ
 
-KiroはSteeringファイルによって、今まで`claude.md`のように1つのファイルで与えていたコンテキストを分割化できるようになりました。
+KiroはSteeringファイルによって、今まで`CLAUDE.md`のように1つのファイルで与えていたコンテキストを分割化できるようになりました。
 
 これには以下のメリットがあると考えられます：
 
@@ -220,7 +220,7 @@ fileMatchPattern: "components/**/*.tsx"
 
 前述したように、`inclusion`を調整することで、全てのSteeringファイルを読みこむ必要がなくなりました。
 
-今までは`claude.md`で1つの大きな永続コンテキストを渡していたのに対して、**不必要なコンテキストを渡さず、コンテキストウィンドウを汚染しないアプローチを取ることができます**。
+今までは`CLAUDE.md`で1つの大きな永続コンテキストを渡していたのに対して、**不必要なコンテキストを渡さず、コンテキストウィンドウを汚染しないアプローチを取ることができます**。
 
 最近話題になっているコンテキストエンジニアリングの観点からも、今までより良い柔軟なコンテキストの渡し方ができるようになっています。
 
