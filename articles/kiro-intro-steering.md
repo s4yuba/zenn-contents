@@ -1,20 +1,20 @@
 ---
-title: "KiroのAgent Steeringの概念が今後大事になりそう"
+title: "KiroのAgent Steeringの概念が良いという話"
 emoji: "💫"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "tech"
 topics: [kiro, aws, ai, ide]
 published: false
 ---
 
 :::message
-- この記事は人力で書かれています。
+この記事は人力で書かれています。
 :::
 
 Oikonです。外資でエンジニアしています。
 
-2025年7月15日(火)に、AWSがAIエディタ**Kiro**のPreview版リリースしました。
+2025年7月15日(火)に、AWSがAIエディタ**Kiro Preview版**をリリースしました。
 
-Kiroの基本思想は仕様駆動開発（Spec-driven Development）です。
+Kiroの基本思想は**仕様駆動開発（Spec-driven Development）**です。
 
 1. **要件定義（Requirements）**
 2. **技術設計（Design）**
@@ -29,7 +29,7 @@ Kiroの基本思想は仕様駆動開発（Spec-driven Development）です。
 この記事では、この仕様駆動開発を裏側で支える**Agent Steering**について紹介したいと思います。現在あまり注目されていませんが、今後のAIエージェントによる開発のやり方に**Kiro**はヒントを与えてくれました。
 
 :::message
-ちなみに記事執筆時には[KiroはWaitlist待ち](https://kiro.dev/)になっていますが、HomebrewでInstallもできるそうです。
+ちなみに記事執筆時には[KiroはWaitlist待ち](https://kiro.dev/)になっていますが、Homebrewでインストールもできるそうです。
 
 ```sh
 brew install --cask kiro
@@ -38,6 +38,8 @@ brew install --cask kiro
 :::
 
 ## KiroのAgent Steering
+
+https://kiro.dev/docs/steering/index
 
 ### Agent Steering 概要
 
@@ -59,7 +61,7 @@ KiroのAgent Steeringは画像のように、IDEのKiroタブの3つ目に存在
 
 ちなみに後述するカスタムSteeringファイルを作成していても、コマンドパレット(`command+shift+p`)から3つのデフォルトドキュメントは生成できます。
 
-Kiro:Generate project steering documents:
+Kiro: Generate project steering documents:
 
 ![kiro-intro-steering3](/images/kiro-intro-steering/kiro-intro-steering3.png)
 
@@ -143,7 +145,7 @@ KiroのSteering関係のコマンドは、以下のようなものがありま�
 
 今まで取り上げてなかったものとしては、`Kiro: Refine this Steering document`があります。
 
-これはKiroのエディタで開いているSteeringドキュメントをKiroがアップデートしてくれるコマンドです。
+これはKiroのエディタで開いているSteeringドキュメントを、Kiroがアップデートしてくれるコマンドです。
 
 ## KiroのAgent Steeringの何がいいか
 
@@ -179,13 +181,13 @@ KiroはSteeringファイルによって、今まで`claude.md`のように1つ�
 
 1つのファイルによる永続コンテキスト管理は限界を個人的に感じることが最近は多いです。また1つのファイルに複数の指示を記載すると、そのプロジェクトのみにしか適用できないドキュメントになります。
 
-Steeringファイルによるコンテキストの分割は、ドメインごとに管理しやすくする良い手法だと感じました。
+Steeringファイルによるコンテキストの分割は、**ドメインごとに管理しやすくする良い手法**だと感じました。
 
 実際に公式ドキュメントでもドメインごとにSteeringファイルを分けるように伝えています。
 
 > **Keep Files Focused** One domain per file - API design, testing, or deployment procedures.
 
-(**焦点を当てる** 1つのファイルあたり1つのドメイン - APIデザイン、テスト、デプロイ方法)
+(**焦点を当てる** 1つのファイルあたり1つのドメイン - APIデザイン、テスト、デプロイ手順)
 
 典型的な例も引用しておきます。
 
@@ -214,7 +216,7 @@ fileMatchPattern: "components/**/*.tsx"
 
 前述したように、`inclusion`を調整することで、全てのSteeringファイルを読みこむ必要がなくなりました。
 
-今までは`claude.md`で1つの大きな永続コンテキストを渡していたのに対して、不必要なコンテキストを渡さず、コンテキストをウィンドウを汚染しないアプローチを取ることができます。
+今までは`claude.md`で1つの大きな永続コンテキストを渡していたのに対して、**不必要なコンテキストを渡さず、コンテキストウィンドウを汚染しないアプローチを取ることができます**。
 
 最近話題になっているコンテキストエンジニアリングの観点からも、今までより良い柔軟なコンテキストの渡し方ができるようになっています。
 
@@ -228,13 +230,13 @@ fileMatchPattern: "components/**/*.tsx"
 
 Claude Opus 4などの実装力に比べると実装力に物足りなさを感じるユーザーも多いです。
 
-またKiro Preview版は無料で使用できるため、現在混雑しており、Claude Sonnet 4にするとAIエージェントが落ちることがしばしばあります。
+またKiro Preview版は無料で使用できるため、現在混雑しており、**Claude Sonnet 4にするとAIエージェントが落ちる**ことがしばしばあります。
 
 @[tweet](https://x.com/gaishi_narou/status/1945678342390169859)
 
 これらの背景から、Kiroには設計のみ任せて、Claude Codeに実装してもらうユーザーが多いようです。
 
-<https://zenn.dev/ubie_dev/articles/kiro-claude-code>
+https://zenn.dev/ubie_dev/articles/kiro-claude-code
 
 個人的にこの流れは仕方がないと思っていますが、**今後Kiroが安定してClaude Codeのような高性能AIモデルを使えるようになった際には、このAgent Steeringの仕組みは活きるようになる**と考えています。
 
@@ -244,12 +246,20 @@ Claude Opus 4などの実装力に比べると実装力に物足りなさを感�
 
 個人的にAIエージェントにコンテキストを渡す仕組みについて良いヒントをもらいました。
 
-AWSのサービスと共に提供できるKiroは、今後も伸びていく可能性が高いと思うので、１度触ってみることをオススメします。
+- 必須コンテキストの提案
+- コンテキストの分割による管理の容易さ
+- コンテキストの適用範囲の柔軟性
+
+そのうちClaude CodeなどでもKiroのようなAgent Steeringが実装されてもおかしくないと思っています。
+
+AWSのサービスと共に提供できるKiroは、今後も伸びていく可能性が高いと思うので、一度触ってみることをオススメします。
 
 ## 参考文献
 
-<https://kiro.dev/blog/introducing-kiro/>
+https://kiro.dev/
 
-<https://kiro.dev/docs/steering/index>
+https://kiro.dev/blog/introducing-kiro/
 
-<https://zenn.dev/ubie_dev/articles/kiro-claude-code>
+https://kiro.dev/docs/steering/index
+
+https://zenn.dev/ubie_dev/articles/kiro-claude-code
