@@ -3,14 +3,15 @@ title: "KiroのAgent Steeringの概念が良いという話"
 emoji: "💫"
 type: "tech"
 topics: [kiro, aws, ai, ide]
-published: false
+published: true
+published_at: 2025-07-19 18:03
 ---
 
 :::message
 この記事は人力で書かれています。
 :::
 
-Oikonです。外資でエンジニアしています。
+Oikonです。
 
 2025年7月15日(火)に、AWSがAIエディタ**Kiro Preview版**をリリースしました。
 
@@ -253,6 +254,13 @@ https://zenn.dev/ubie_dev/articles/kiro-claude-code
 そのうちClaude CodeなどでもKiroのようなAgent Steeringが実装されてもおかしくないと思っています。
 
 AWSのサービスと共に提供できるKiroは、今後も伸びていく可能性が高いと思うので、一度触ってみることをオススメします。
+
+## 𝕏フォローしてくれると嬉しいです！
+
+[𝕏でも情報発信しているので、フォローしていただけると励みになります！](https://x.com/gaishi_narou)
+
+最近のAI関係のポストは、ハイライトを見ていただければと思います。
+![](/images/x/x-20250719.png =500x)
 
 ## 参考文献
 
