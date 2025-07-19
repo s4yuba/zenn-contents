@@ -3,7 +3,7 @@ title: "KiroのAgent Steeringの仕組みが良いと思った話"
 emoji: "💫"
 type: "tech"
 topics: [kiro, aws, ai, ide]
-published: true
+published: false
 published_at: 2025-07-19 18:03
 ---
 
