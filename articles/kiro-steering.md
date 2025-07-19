@@ -14,7 +14,7 @@ Oikonです。
 
 2025年7月15日(火)に、AWSがAIエディタ**Kiro Preview版**をリリースしました。
 
-Kiroの基本思想は**仕様駆動開発（Spec-driven Development）**です。
+Kiroの基本思想は**仕様駆動開発(Spec-driven Development)です**。
 
 1. **要件定義（Requirements）**
 2. **技術設計（Design）**
