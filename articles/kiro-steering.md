@@ -228,7 +228,7 @@ fileMatchPattern: "components/**/*.tsx"
 
 ここまでKiroのAgent Steeringは良いよと言ってきましたが、Kiroのユーザーを見ているとそこまで注目されていません。
 
-それはなぜかというと、**Kiroのコーディングエージェントの実装力と安定性が弱いから**だと思います。
+なぜかというと、**Kiroのコーディングエージェントの実装力と安定性が弱いから**だと思います。
 
 現在KiroはPreview版のため、使用できるAIモデルは**Claude Sonnet 4**もしくは**Claude Sonnet 3.7**に限定されています。
 
@@ -242,7 +242,9 @@ Claude Opus 4などの実装力に比べると実装力に物足りなさを感�
 
 https://zenn.dev/ubie_dev/articles/kiro-claude-code
 
-個人的にこの流れは仕方がないと思っていますが、**今後Kiroが安定してClaude Codeのような高性能AIモデルを使えるようになった際には、このAgent Steeringの仕組みは活きるようになる**と考えています。
+個人的にこの流れは仕方がないと思っています（私もそういう使い方を今はしています）。
+
+今後**Kiroが安定してClaude Codeのような高性能AIモデルを使えるようになった際には、このAgent Steeringの仕組みは活きるようになる**と考えています。
 
 ## まとめ
 
