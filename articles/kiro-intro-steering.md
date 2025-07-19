@@ -48,9 +48,9 @@ Agent Steeringは、`.kiro/steering/`以下のMarkdownファイルを通じて�
 
 ### UI
 
-![kiro-intro-steering2](/images/kiro-intro-steering/kiro-intro-steering2.png)
-
 KiroのAgent Steeringは画像のように、IDEのKiroタブの3つ目に存在します。デフォルトではSteeringのドキュメントは存在しません。
+
+![kiro-intro-steering2](/images/kiro-intro-steering/kiro-intro-steering2.png)
 
 ### Steering file
 
