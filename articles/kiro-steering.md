@@ -71,6 +71,10 @@ Generate Steering Docsを実行すると以下の画像のように、Kiroが3�
 
 KiroはSteeringファイルを作成する際には、既存のプロジェクトの構造や設定ファイルをチェックしていることが分かります。
 
+生成されるとAgent Steering Viewに以下のように表示されます。
+
+![kiro-intro-steering6](/images/kiro-intro-steering/kiro-intro-steering6.png)
+
 ### Custom Steering file
 
 デフォルトで作成するSteeringファイルの他に、ユーザー独自の**Custom Steering file**を作成することもできます。
