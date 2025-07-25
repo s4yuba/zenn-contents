@@ -29,12 +29,7 @@ Kiroの基本思想は**仕様駆動開発(Spec-driven Development)です**。
 この記事では、この仕様駆動開発を裏側で支える**Agent Steering**について紹介したいと思います。現在あまり注目されていませんが、今後のAIエージェントによる開発のやり方に**Kiro**はヒントを与えてくれました。
 
 :::message
-ちなみに記事執筆時には[KiroはWaitlist待ち](https://kiro.dev/)になっていますが、Homebrewでインストールもできるそうです。
-
-```sh
-brew install --cask kiro
-```
-
+ちなみに7月25日時点では、[KiroはWaitlist待ち](https://kiro.dev/)になっています。
 :::
 
 ## KiroのAgent Steering
