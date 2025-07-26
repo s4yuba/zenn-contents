@@ -4,7 +4,7 @@ emoji: "💡"
 type: "idea"
 topics: [kiro, claudecode, cursor, githubcopilot, geminicli]
 published: true
-published_at: 2025-07-27 7:07
+published_at: 2025-07-27 07:07
 ---
 
 :::message
