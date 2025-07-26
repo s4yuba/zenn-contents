@@ -1,5 +1,5 @@
 ---
-title: "Kiroと最近のAIコーディングツールについて思うこと"
+title: "Kiroの登場と最近のAIコーディングツールについて思うこと"
 emoji: "💡"
 type: "idea"
 topics: [kiro, claudecode, cursor, githubcopilot, geminicli]
