@@ -2,7 +2,7 @@
 title: "Figma to CodeのAIツール「Kombai」を使ってみた"
 emoji: "🐕"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [kombai, ai, frontend, css]
+topics: [kombai, ai, frontend, figma]
 published: true
 published_at: 2025-08-02 18:06
 ---
@@ -14,6 +14,8 @@ published_at: 2025-08-02 18:06
 Oikonです。
 
 今回は**Figma to CodeのフロントエンドAIツールのKombai**を使ってみたので紹介します。
+
+![top](/images/kombai-frontend/top.png)
 
 Kombaiは[Product Hunt](https://www.producthunt.com/products/kombai)で過去に１位を獲ったことがあり、2025年7月31日にリリースされました。
 
