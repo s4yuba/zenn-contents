@@ -117,7 +117,7 @@ Planning Phaseの内容に問題がなければ実行します。実行が終わ
 
 ![demo1-7](/images/kombai-frontend/demo1-7.png)
 
-今回、作成してもらったポケモン図鑑は以下のものを生成してくれました。MUIっぽいUIですね。
+今回、ポケモン図鑑は以下のものを生成してくれました。MUIっぽいUIですね。
 
 ![demo1-8](/images/kombai-frontend/demo1-8.png)
 
