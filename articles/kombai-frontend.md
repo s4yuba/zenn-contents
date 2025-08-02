@@ -3,7 +3,8 @@ title: "Figma to CodeのAIツール「Kombai」を使ってみた"
 emoji: "🐕"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [kombai, ai, frontend, css]
-published: false
+published: true
+published_at: 2025-08-02 18:06
 ---
 
 :::message
@@ -14,7 +15,7 @@ Oikonです。
 
 今回は**Figma to CodeのフロントエンドAIツールのKombai**を使ってみたので紹介します。
 
-Kombaiは[Product Hunt](https://www.producthunt.com/products/kombai)で過去に１位を獲ったことがあり、7月31日にリリースされました。
+Kombaiは[Product Hunt](https://www.producthunt.com/products/kombai)で過去に１位を獲ったことがあり、2025年7月31日にリリースされました。
 
 https://x.com/gaishi_narou/status/1950938306025320682
 
@@ -83,10 +84,10 @@ Kombaiは現在以下のマーケットプレイスで公開されています
 - フレームワーク: React 19 TypeScript
 - APIフレームワーク: RTK, RTK Query
 - ルーター: React Router v7 (declarative mode)
-- CSSライブラリ: MUI v7
+- コンポーネントライブラリ: MUI v7
 - スタイル: Emotion
 
-技術スタックのデフォルトは日本で好まれているものと少し違う印象です。必要に応じて`Configure stack`から使用する技術スタックを変更できます。
+技術スタックの選択肢として提供されているものは日本で好まれているものと少し違う印象です。必要に応じて`Configure stack`から使用する技術スタックを変更できます。
 
 ![demo1-2](/images/kombai-frontend/demo1-2.png)
 
@@ -117,7 +118,7 @@ Planning Phaseの内容に問題がなければ実行します。実行が終わ
 
 ![demo1-7](/images/kombai-frontend/demo1-7.png)
 
-今回、ポケモン図鑑は以下のものを生成してくれました。MUIっぽいUIですね。
+今回作成してもらったポケモン図鑑は以下です。MUIっぽいUIですね。
 
 ![demo1-8](/images/kombai-frontend/demo1-8.png)
 
@@ -197,7 +198,7 @@ Figma URLが正しく読み込まれると以下の画像のように、Figmaの
 **Kombaiの生成物**:
 ![example-3](/images/kombai-frontend/example-3.png)
 
-全体としての所感は以下のとおり:
+所感は以下のとおり:
 
 - **Pixel Perfect（ピクセル再現）ではない**
 - **最初のMockとしては十分**
