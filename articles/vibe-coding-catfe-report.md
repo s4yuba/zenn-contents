@@ -1,18 +1,55 @@
 ---
-title: "バイブコーディングカフェで登壇した話 + Shipatonについて"
+title: "イベントレポート: Vibe Coding Catfeで登壇した話 + Shipatonについて"
 emoji: "🐈"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [ai, event, revenuecat, shipaton]
-published: false
+published: true
+published_at: 2025-08-09 18:07
 ---
+
+:::message
+AIは文章の誤字脱字のチェックに使用しています。
+:::
 
 Oikonです。外資系IT企業でソフトウェアエンジニアをしています。
 
-2025年7月29日〜8月1日の4日間でRevenueCatが、Vibe Coding Catfe（バイブコーディングカフェ）というイベントを開催しました！
+2025年7月29日-8月1日の4日間で、**RevenueCatがVibe Coding Catfe（バイブコーディングカフェ）というイベント**を開催しました！
 
 RevenueCatは、iOS・Androidアプリケーションのサブスクリプション管理と収益化を支援するプラットフォームを提供する米国企業です。ChatGPT、Notionなども採用しています。
 
-この記事では、イベントレポートと登壇した話についての備忘録を書くとともに、RevenueCatが開催する大規模ハッカソン **Shipaton** について個人開発者向けに有益な情報を紹介します。
+この記事では、イベントレポートと登壇した話についての備忘録を書くとともに、RevenueCatが開催する大規模ハッカソン**Shipaton**について、個人開発者向けに有益な情報を紹介します。
+
+## Shipaton
+
+https://revenuecat-shipaton-2025.devpost.com/
+
+### 概要
+
+**Shipaton 2025は、RevenueCatが主催する世界最大級のアプリ開発ハッカソン**です。
+
+**開催概要**:
+
+- 期間: 2025年8月1日〜9月30日（2ヶ月間）
+- 賞金総額: 35万ドル以上
+- 参加条件: iOS、Android、Mac App Storeに新規アプリを公開し、RevenueCat SDKを統合してアプリ内購入またはウェブ購入を実装
+
+カテゴリーもいくつか分かれており、それぞれの賞で賞金が出ます。さらに特別報酬も豪華です！
+
+**特別報酬**:
+
+- NYタイムズスクエアの巨大ビルボードへの掲載
+- ニューヨークのApp Growth Annual会議への招待（旅費込み）
+- Shippyトロフィーとブログ記事での特集
+
+### Ship kit
+
+Shipatonはこれからアプリ開発を始める人に嬉しい「Ship kit」というものを提供しています。
+
+![shipkit](/images/vibe-coding-catfe-report/shipkit.png)
+
+Shipatonに登録することでShip kitをメールで受け取ることができます！個人的にa0.devやPerplexityが入っているのが嬉しい。
+
+**Shipatonへのエントリーはこちら**：https://revenuecat-shipaton-2025.devpost.com/
 
 ## Vibe Coding Catfe
 
@@ -20,13 +57,11 @@ RevenueCatは、iOS・Androidアプリケーションのサブスクリプショ
 
 ### イベント概要
 
-Vibe Coding Catfeは、RevenueCatが主催した夏季イベントです。ちなみに「Cafe」ではなく「Catfe」です（RevenueCatなので）
-
-アプリ開発者、デザイナー、起業家、そしてAIツールに興味を持つすべての人々が集まり、新しいアプリのアイデアを形にするイベントでした。
+Vibe Coding Catfeは、RevenueCatが主催した夏季イベントです。ちなみに「Cafe」ではなく「Catfe」です（RevenueCatなので）。アプリ開発者、デザイナー、起業家、そしてAIツールに興味を持つすべての人々が集まり、新しいアプリのアイデアを形にするイベントでした。
 
 「A Series of Unique Vibe Coding Catfes」として、世界3都市の象徴的な会場を舞台に開催されています
 
-- ニューヨーク（6月27-28日）
+- ニューヨーク（6月27日-28日）
 - パリ（7月11日-14日）
 - 東京（7月29日-8月1日）
 
@@ -36,56 +71,67 @@ https://revcat-catfe.tokyo/
 
 ![event1](/images/vibe-coding-catfe-report/event1.jpeg)
 
+今回のイベントの会場は六本木ヒルズカフェでした。4日間以上貸切していますが一体いくらかかっているんだ...笑
+
+結構派手な猫の看板があったので、一般の方々も写真を撮ったり覗いていたりしていて面白かったです。
+
 ![event2](/images/vibe-coding-catfe-report/event2.jpeg)
+
+会場の雰囲気はこんな感じ↑
+多い時は100人ほどが会場に集まっていました。
+
+1人で参加している方も多かったので、**初対面同士でVibe Codingについて語り合っていました**。
+
+非エンジニアの参加も多く、日によっては半数以上。初心者にも参加しやすい雰囲気です。
 
 ![event3](/images/vibe-coding-catfe-report/event3.jpeg)
 
+コーヒーなどのドリンクや軽食も提供されていました。無料イベントなのが信じられません。
+とても快適な環境で、参加者はVibe Codingについて集中して学ぶことができるイベントでした！
+
 ### 登壇した話：Kiroについて
 
-![speak1](/images/vibe-coding-catfe-report/speak1.JPG)
+![speak1](/images/vibe-coding-catfe-report/speak1.jpeg)
 
-![speak2](/images/vibe-coding-catfe-report/speak2.JPG)
+今回、私は2日目(7月30日)の午後に登壇しました。
 
+普段からAIツールの情報をX（旧Twitter）で発信しており、KiroについてもXのポストやZennで発信していたため声をかけていただきました。日頃から発信していると思いがけないことが起こるものですね。
 
-## Shipaton
+https://x.com/gaishi_narou/status/1945485134532374926
 
-Shipaton 2025は、RevenueCatが主催する世界最大級のアプリ開発ハッカソンです。
+https://zenn.dev/oikon/articles/kiro-steering
 
-https://revenuecat-shipaton-2025.devpost.com/
+https://zenn.dev/oikon/articles/kiro-and-aitools
 
-- 期間: 2025年8月1日〜9月30日（2ヶ月間）
-- 賞金総額: 35万ドル以上（約5,000万円）
-- 参加条件: iOS、Android、Mac App Storeに新規アプリを公開し、RevenueCat SDKを統合してアプリ内購入またはウェブ購入を実装
+「Kiroについて紹介して欲しい」というお話をいただいたため、リリースからまだ2週間ほどでしたがイベントまでに使い込んで紹介させていただきました。
 
-### 賞カテゴリー
+登壇内容は「[Kiroから考えるAIコーディングツールの潮流](https://speakerdeck.com/s4yuba/kirokarakao-eru-aikodeinguturunochao-liu)」というタイトルです。
 
-1. グランプリ「Build & Grow Award」 - $65,000
-   - 早期リリースと最速成長を達成したアプリ
+![speak2](/images/vibe-coding-catfe-report/speak2.jpeg)
 
-2. #BuildInPublic Award
-   - ソーシャルメディアで最も興味深い開発ジャーニーを共有した開発者
+ちなみにKiroは7月24日にAWSがプレビュー提供を開始した統合開発環境（IDE）で、VSCodeの操作感で仕様駆動開発(Spec-Driven Development)を実践できるAIツールです。
 
-3. Buzziest Launch Award
-   - ローンチ時に最大の話題を生み出したチーム
+詳しくは登壇スライドにまとめています。ぜひご覧ください。
 
-4. Best Vibes Award
-   - バイブコーディングツールを使用した最も説得力のあるストーリーを共有した開発者
+https://speakerdeck.com/s4yuba/kirokarakao-eru-aikodeinguturunochao-liu
 
-5. RevenueCat Peace Prize
-   - 社会的に最大の利益をもたらすプロジェクト
-
-### 特別報酬
-- タイムズスクエアの巨大ビルボードへの掲載
-- ニューヨークのApp Growth Annual会議への招待（旅費込み）
-- Shippyトロフィーとブログ記事での特集
-
-Shipatonは単なるハッカソンではなく、世界中の開発者が集まり、新しいアプリのアイデアを形にし、実際にビジネスとして成長させることを目指すグローバルコミュニティイベントです。
+登壇後に参加者とお話したところ、エンジニアだけでなく非エンジニアの方まで、幅広い方々にKiroについて興味を持っていただけたようで良かったです。
 
 ## まとめ
 
-Vibe Coding Catfe東京は、AI時代の新しいアプリ開発スタイルを体験できる貴重な機会となりました。バイブコーディングという新しい開発手法により、技術的なハードルが下がり、より多くの人がアプリ開発に参加できる時代が到来しています。
+この記事ではRevenueCat Shipatonと、そのキックオフイベントである「Vibe Coding Catfe」のイベントレポートを紹介しました。
 
-Shipaton 2025と組み合わせることで、アイデアから実装、そして収益化まで一気通貫で支援する革新的なイベントとなっています。今後もRevenueCatのようなプラットフォームが、開発者コミュニティの成長と新しいアプリエコシステムの発展に貢献していくことが期待されます。
+全体として参加者の学ぶ意欲がとても高かったのが印象的でした！また初心者でもアプリを開発できる時代になったのだなと今回のイベント全体を通して感じることができたのが良かったです！
+
+Shipatonは個人的にも興味があり、初めてのモバイルアプリ開発をしてみるつもりです！
+
+また日頃発信していると、このような場での登壇機会もいただけることもあるのだなと驚きました。今後も引き続き役に立つ情報を発信したいと思います。
+
+## 𝕏フォローしてくれると嬉しいです！
+
+[𝕏でも情報発信しているので、フォローしていただけると励みになります！](https://x.com/gaishi_narou)
+
+![x](/images/x/x-20250809.png =500x)
 
 ## 参考文献
 
