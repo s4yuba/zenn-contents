@@ -338,12 +338,12 @@ claude mcp list
 
 ここまでの流れをまとめると、以下の運用になります。
 
-1. **Obsidian Vaultのデバイス間共有**
-2. **フォルダ管理の構成はシンプルに**
-3. **Obsidian Web Clipperでドキュメント保存**
-4. **Claude CodeでClippingsのドキュメントを整理**
-5. **Claude CodeとObsidian MCPサーバーを接続する**
-6. **知識の引き出し、コンテンツ作成などをAIエージェントに任せる**
+1. **Obsidian Vaultをデバイス間で共有**
+2. **Obsidian Web Clipperで記事を保存**
+3. **Obsidianのフォルダ構成はシンプルに**
+4. **Clippings/をClaude Codeで整理**
+5. **Claude CodeとObsidian MCPサーバーを繋ぐ**
+6. **Claude CodeからObsidianを活用する**
 
 ## まとめ
 
