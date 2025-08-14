@@ -105,7 +105,7 @@ https://zenn.dev/oikon/articles/kiro-and-aitools
 
 「Kiroについて紹介して欲しい」というお話をいただいたため、リリースからまだ2週間ほどでしたがイベントまでに使い込んで紹介させていただきました。
 
-登壇内容は「[Kiroから考えるAIコーディングツールの潮流](https://speakerdeck.com/s4yuba/kirokarakao-eru-aikodeinguturunochao-liu)」というタイトルです。
+登壇内容は「[Kiroから考えるAIコーディングツールの潮流](https://speakerdeck.com/oikon48/kirokarakao-eru-aikodeinguturunochao-liu)」というタイトルです。
 
 ![speak2](/images/vibe-coding-catfe-report/speak2.jpeg)
 
