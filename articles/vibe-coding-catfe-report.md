@@ -113,7 +113,7 @@ https://zenn.dev/oikon/articles/kiro-and-aitools
 
 詳しくは登壇スライドにまとめています。ぜひご覧ください。
 
-https://speakerdeck.com/s4yuba/kirokarakao-eru-aikodeinguturunochao-liu
+https://speakerdeck.com/oikon48/kirokarakao-eru-aikodeinguturunochao-liu
 
 登壇後に参加者とお話したところ、エンジニアだけでなく非エンジニアの方まで、幅広い方々にKiroについて興味を持っていただけたようで良かったです。
 
