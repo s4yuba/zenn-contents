@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s4yuba/zenn-contents.git"
+    "url": "git+https://github.com/oikon48/zenn-contents.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/s4yuba/zenn-contents/issues"
+    "url": "https://github.com/oikon48/zenn-contents/issues"
   },
-  "homepage": "https://github.com/s4yuba/zenn-contents#readme",
+  "homepage": "https://github.com/oikon48/zenn-contents#readme",
   "dependencies": {
     "zenn-cli": "^0.2.1"
   }
