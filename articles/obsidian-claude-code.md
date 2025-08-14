@@ -1,5 +1,5 @@
 ---
-title: "ObsidianとClaude Codeを使ったドキュメント管理"
+title: "ObsidianとClaude Codeを使ったドキュメント活用"
 emoji: "💫"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [obsidian, claudecode, ai, claude, mcp]
