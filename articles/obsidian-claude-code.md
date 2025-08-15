@@ -372,8 +372,6 @@ Obsidianは自由度が高い故に挫折してしまうことが多いですが
 
 ## 参考文献
 
-### 公式ドキュメント・ツール
-
 https://obsidian.md/
 
 https://docs.anthropic.com/ja/docs/claude-code/overview
